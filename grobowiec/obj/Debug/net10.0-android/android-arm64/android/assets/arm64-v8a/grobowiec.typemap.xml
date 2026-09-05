@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="grobowiec" mvid="8b1696e619734f85adb7a4ea8e45cb80">
+  <java-to-managed>
+    <entry java-name="crc648e4fc53b69b89647/MainActivity" managed-name="grobowiec.MainActivity, grobowiec" managed-type-token-id="33554441" />
+    <entry java-name="crc648e4fc53b69b89647/MainApplication" managed-name="grobowiec.MainApplication, grobowiec" managed-type-token-id="33554442" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc648e4fc53b69b89647/MainActivity" managed-name="grobowiec.MainActivity, grobowiec" managed-type-token-id="33554441" />
+    <entry java-name="crc648e4fc53b69b89647/MainApplication" managed-name="grobowiec.MainApplication, grobowiec" managed-type-token-id="33554442" />
+  </managed-to-java>
+</api>
