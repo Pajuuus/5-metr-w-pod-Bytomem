@@ -4,11 +4,30 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:grobowiec"
+    FlyoutWidth="150"
+    FlyoutBackgroundColor="#2B2B2B"
     Title="grobowiec">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <FlyoutItem Title="Main">
+        <ShellContent
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+    </FlyoutItem>
+    
+    <Shell.FlyoutHeader>
+        <VerticalStackLayout Padding="12" Spacing="10">
+            <Label HorizontalOptions="Fill" Text="Grobowiec" />  
+        </VerticalStackLayout>
+    </Shell.FlyoutHeader>
+    
+    <Shell.FlyoutFooter>
+        <VerticalStackLayout Padding="12" Spacing="10">
+            <Button 
+                Text="Kuru ^^"
+                Clicked="OnKuruClicked"
+                BackgroundColor="#3D3D3D"
+                TextColor="White" />
+        </VerticalStackLayout>
+    </Shell.FlyoutFooter>
 
 </Shell>

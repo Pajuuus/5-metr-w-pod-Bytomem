@@ -7,29 +7,97 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
-            <Image
-                Source="dotnet_bot.png"
-                HeightRequest="185"
-                Aspect="AspectFit"
-                SemanticProperties.Description="dot net bot in a submarine number ten" />
 
+            <HorizontalStackLayout
+                Spacing="6">
+                <Label
+                    Text="Witaj,"
+                    Style="{StaticResource Headline}"
+                    SemanticProperties.HeadingLevel="Level1" />
+                <Label
+                    Text="Marcin!"
+                    FontAttributes="Bold"
+                    Style="{StaticResource Headline}"
+                    SemanticProperties.HeadingLevel="Level1" />
+            </HorizontalStackLayout>
+            
+            <BoxView HeightRequest="1"
+                     Color="#808080"
+                     HorizontalOptions="Fill"
+                     Margin="0,8" />
+            
             <Label
-                Text="Witaj, czarnuchu!"
+                Text="Dzienne promocje"
+                FontSize="15"
                 Style="{StaticResource Headline}"
+                HorizontalOptions="Start"
+                HorizontalTextAlignment="Start"
                 SemanticProperties.HeadingLevel="Level1" />
+            
+            <CollectionView ItemsSource="{Binding DailyPromos}"
+                            HeightRequest="190"
+                            HorizontalScrollBarVisibility="Never"
+                            >
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Horizontal"
+                                       ItemSpacing="14" />
+                </CollectionView.ItemsLayout>
+                
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Border StrokeShape="RoundRectangle 8"
+                                StrokeThickness="0"
+                                BackgroundColor="#2B2B2B"
+                                WidthRequest="140"
+                                Margin="4">
+                            <VerticalStackLayout Spacing="6" Padding="8">
+                                <Image Source="{Binding ImageUrl}"
+                                       Aspect="AspectFill"
+                                       HeightRequest="95"
+                                       WidthRequest="170" />
 
+                                <Label Text="{Binding Title}"
+                                       TextColor="White"
+                                       FontSize="13"
+                                       FontAttributes="Bold"
+                                       LineBreakMode="TailTruncation" />
+
+                                <HorizontalStackLayout Spacing="6">
+                                    <Label Text="{Binding PromoPrice}"
+                                           TextColor="#61507D"
+                                           FontSize="13"/>
+                                    <Label Text="{Binding OldPrice}"
+                                           TextColor="#888888"
+                                           FontSize="11"
+                                           VerticalOptions="Center" />
+                                </HorizontalStackLayout>
+                            </VerticalStackLayout>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            
+            <BoxView HeightRequest="1"
+                     Color="#808080"
+                     HorizontalOptions="Fill"
+                     Margin="0,8" />
+            
             <Label
-                Text="Witamy w &#10; piecu"
+                Text="TYLKO DO KONCA TYGODNIA!!"
+                FontSize="18"
                 Style="{StaticResource SubHeadline}"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="jaja" />
-
-            <Button
-                x:Name="CounterBtn"
-                Text="cock me" 
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Fill" />
+                SemanticProperties.HeadingLevel="Level1" />
+            <Label
+                Text="WSZYSTKIE KREMACJE -20%"
+                FontSize="15"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level1" />
+            
+            <BoxView HeightRequest="1"
+                     Color="#808080"
+                     HorizontalOptions="Fill"
+                     Margin="0,8" />
+            
         </VerticalStackLayout>
     </ScrollView>
 

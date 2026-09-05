@@ -2,8 +2,26 @@
 
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="grobowiec.Pages.TestPage">
-    <ContentPage.Content>
-        
-    </ContentPage.Content>
+             x:Class="grobowiec.TestPage">
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0" Spacing="25">
+            <Image
+                x:Name="KuruGif"
+                Source="kurukuru.gif"
+                IsAnimationPlaying="True"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="kurukuru" />
+            
+            <Label HorizontalOptions="Fill" Text="druga strona omg" />   
+            
+            <Button
+                x:Name="KuruToggleB"
+                Text="Toggle kuru" 
+                SemanticProperties.Hint="toggles kuru, no shit"
+                Clicked="OnKuruClicked"
+                HorizontalOptions="Fill" />
+            
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
