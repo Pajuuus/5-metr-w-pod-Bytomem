@@ -5,6 +5,23 @@
              x:Class="grobowiec.TestPage">
     <ScrollView>
         <VerticalStackLayout Padding="30,0" Spacing="25">
+            
+            <Label Text="Credits"
+                   Style="{StaticResource Headline}"
+                   SemanticProperties.HeadingLevel="Level1" />
+            
+            <BoxView HeightRequest="1"
+                     Color="#404040"
+                     HorizontalOptions="Fill" />
+            
+            <Label HorizontalOptions="Fill" FontSize="16" Style="{StaticResource SubHeadline}" Text="Dawid Migon (homik) - idk" />   
+            <Label HorizontalOptions="Fill" FontSize="16" Style="{StaticResource SubHeadline}" Text="Krystian Pajek (Paju) - idk" />   
+            <Label HorizontalOptions="Fill" FontSize="16" Style="{StaticResource SubHeadline}" Text="Jan Hareza (llumii) - idk" />   
+            
+            <BoxView HeightRequest="1"
+                     Color="#404040"
+                     HorizontalOptions="Fill" />
+            
             <Image
                 x:Name="KuruGif"
                 Source="kurukuru.gif"
@@ -13,11 +30,9 @@
                 Aspect="AspectFit"
                 SemanticProperties.Description="kurukuru" />
             
-            <Label HorizontalOptions="Fill" Text="druga strona omg" />   
-            
             <Button
                 x:Name="KuruToggleB"
-                Text="Toggle kuru" 
+                Text="kuru?" 
                 SemanticProperties.Hint="toggles kuru, no shit"
                 Clicked="OnKuruClicked"
                 HorizontalOptions="Fill" />

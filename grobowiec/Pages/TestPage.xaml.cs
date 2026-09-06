@@ -16,7 +16,7 @@ public partial class TestPage : ContentPage
     private void OnKuruClicked(object? sender, EventArgs e)
     {
         KuruGif.IsAnimationPlaying = !KuruGif.IsAnimationPlaying;
-        KuruToggleB.Text = "Kuru: " + KuruGif.IsAnimationPlaying;
+        KuruToggleB.Text = KuruGif.IsAnimationPlaying ? "Kurukuru" : "No kurukuru :c";
         SemanticScreenReader.Announce(KuruToggleB.Text);
     }
 }

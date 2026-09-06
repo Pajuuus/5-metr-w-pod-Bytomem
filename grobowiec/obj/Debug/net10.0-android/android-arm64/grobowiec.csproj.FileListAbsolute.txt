@@ -3196,3 +3196,4 @@
 /run/media/shouko/Dih/RiderProjects/jaja/grobowiec/obj/Debug/net10.0-android/android-arm64/stamp/_GeneratePackageManagerJava.stamp
 /run/media/shouko/Dih/RiderProjects/jaja/grobowiec/obj/Debug/net10.0-android/android-arm64/stamp/_ResolveLibraryProjectImports.stamp
 /run/media/shouko/Dih/RiderProjects/jaja/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable/kurukuru.gif
+/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable/sandgren.jpg
