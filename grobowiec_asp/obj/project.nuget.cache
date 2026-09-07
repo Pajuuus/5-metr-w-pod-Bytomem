@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "+wWixJprtGQ=",
+  "success": false,
+  "projectFilePath": "/home/pajteto/RiderProjects/5-metr-w-pod-Bytomem/grobowiec_asp/grobowiec_asp.csproj",
+  "expectedPackageFiles": [
+    "/home/pajteto/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.11/microsoft.aspnetcore.app.ref.10.0.11.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1015",
+      "level": "Error",
+      "message": "The following PackageReference item(s) do not have a version specified: Microsoft.Maui.Core",
+      "projectPath": "/home/pajteto/RiderProjects/5-metr-w-pod-Bytomem/grobowiec_asp/grobowiec_asp.csproj",
+      "filePath": "/home/pajteto/RiderProjects/5-metr-w-pod-Bytomem/grobowiec_asp/grobowiec_asp.csproj",
+      "targetGraphs": []
+    }
+  ]
+}
