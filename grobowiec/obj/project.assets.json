@@ -11011,20 +11011,20 @@
     ]
   },
   "packageFolders": {
-    "/home/shouko/.nuget/packages/": {}
+    "/home/pajteto/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/grobowiec.csproj",
+      "projectUniqueName": "/home/pajteto/RiderProjects/5-metr-w-pod-Bytomem/grobowiec/grobowiec.csproj",
       "projectName": "grobowiec",
-      "projectPath": "/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/grobowiec.csproj",
-      "packagesPath": "/home/shouko/.nuget/packages/",
-      "outputPath": "/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/obj/",
+      "projectPath": "/home/pajteto/RiderProjects/5-metr-w-pod-Bytomem/grobowiec/grobowiec.csproj",
+      "packagesPath": "/home/pajteto/.nuget/packages/",
+      "outputPath": "/home/pajteto/RiderProjects/5-metr-w-pod-Bytomem/grobowiec/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
-        "/home/shouko/.nuget/NuGet/NuGet.Config"
+        "/home/pajteto/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0-android"

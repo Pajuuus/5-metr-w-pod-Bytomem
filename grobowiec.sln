@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grobowiec", "grobowiec\grobowiec.csproj", "{2200D219-0344-4BD6-9447-3F4BC7073863}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backend_grobowiec", "backend_grobowiec\backend_grobowiec.csproj", "{D351DF98-A458-4989-8FB0-0203A43EAEAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{2200D219-0344-4BD6-9447-3F4BC7073863}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2200D219-0344-4BD6-9447-3F4BC7073863}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2200D219-0344-4BD6-9447-3F4BC7073863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D351DF98-A458-4989-8FB0-0203A43EAEAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D351DF98-A458-4989-8FB0-0203A43EAEAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D351DF98-A458-4989-8FB0-0203A43EAEAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D351DF98-A458-4989-8FB0-0203A43EAEAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
