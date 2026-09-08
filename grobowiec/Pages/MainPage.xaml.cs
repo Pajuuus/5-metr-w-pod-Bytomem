@@ -6,6 +6,7 @@ namespace grobowiec;
 public partial class MainPage : ContentPage
 {
     public UserInfo User { get; set; }
+    
     public ObservableCollection<PromoItem> DailyPromos { get; set; }
 
     public MainPage()
@@ -27,5 +28,18 @@ public partial class MainPage : ContentPage
         };
 
         BindingContext = this;
+    }
+
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        Anims.StartPulse(eee);
+    }
+
+    protected override void OnDisappearing()
+    {
+        base.OnDisappearing();
+        Anims.StopPulse(eee);
+        eee.Scale = 1.0;
     }
 }
