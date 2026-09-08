@@ -14,74 +14,259 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fd889e3-cbdc-4666-8d6c-4bff5f9c9b25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/grobowiec/Pages/ItemPage.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grobowiec/Pages/ItemPage.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.grobowiec/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.grobowiec/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/Classes/Anims.cs" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/Classes/Anims.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/AppShell.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/AppShell.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/AppShell.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/AppShell.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/Classes/PromoItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/Classes/PromoItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/MauiProgram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/MauiProgram.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/Classes/UserInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/Classes/UserInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/Pages/ItemPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/Pages/ItemPage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/Pages/ItemPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/Pages/ItemPage.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/Pages/MainPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/Pages/MainPage.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/Pages/MainPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/Pages/MainPage.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/Resources/Images/case.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/Resources/Styles/Colors.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/Resources/Styles/Colors.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/Resources/Styles/Styles.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/Resources/Styles/Styles.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/bin/Debug/net10.0-android/android-arm64/com.companyname.grobowiec-Signed.apk" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/bin/Debug/net10.0-android/android-arm64/com.companyname.grobowiec-Signed.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/bin/Debug/net10.0-android/android-arm64/com.companyname.grobowiec-Signed.apk.idsig" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/bin/Debug/net10.0-android/android-arm64/com.companyname.grobowiec-Signed.apk.idsig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/bin/Debug/net10.0-android/android-arm64/com.companyname.grobowiec.apk" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/bin/Debug/net10.0-android/android-arm64/com.companyname.grobowiec.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/bin/Debug/net10.0-android/android-arm64/grobowiec.dll" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/bin/Debug/net10.0-android/android-arm64/grobowiec.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/bin/Debug/net10.0-android/android-arm64/grobowiec.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/bin/Debug/net10.0-android/android-arm64/grobowiec.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/.cache/com.companyname.grobowiec.flag" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/.cache/com.companyname.grobowiec.flag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/_AndroidResolvedResources.hash" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/_AndroidResolvedResources.hash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/_AndroidResolvedResources.hash" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/_AndroidResolvedResources.hash" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/_Microsoft.Android.Resource.Designer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/_Microsoft.Android.Resource.Designer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/adb.props" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/adb.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/assets/arm64-v8a/_Microsoft.Android.Resource.Designer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/assets/arm64-v8a/_Microsoft.Android.Resource.Designer.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/assets/arm64-v8a/grobowiec.dll" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/assets/arm64-v8a/grobowiec.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/assets/arm64-v8a/grobowiec.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/assets/arm64-v8a/grobowiec.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/assets/arm64-v8a/grobowiec.typemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/assets/arm64-v8a/grobowiec.typemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/androidx/appcompat/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/androidx/appcompat/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/androidx/core/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/androidx/core/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/androidx/loader/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/androidx/loader/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/androidx/swiperefreshlayout/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/androidx/swiperefreshlayout/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/bumptech/glide/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/bumptech/glide/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/companyname/grobowiec/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/companyname/grobowiec/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/companyname/grobowiec/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/companyname/grobowiec/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/companyname/grobowiec/R$integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/companyname/grobowiec/R$integer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/companyname/grobowiec/R$interpolator.class" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/companyname/grobowiec/R$interpolator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/companyname/grobowiec/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/companyname/grobowiec/R$layout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/companyname/grobowiec/R$mipmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/companyname/grobowiec/R$mipmap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/companyname/grobowiec/R$plurals.class" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/companyname/grobowiec/R$plurals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/companyname/grobowiec/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/companyname/grobowiec/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/companyname/grobowiec/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/companyname/grobowiec/R$style.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/companyname/grobowiec/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/companyname/grobowiec/R$styleable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/companyname/grobowiec/R$xml.class" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/companyname/grobowiec/R$xml.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/google/android/material/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/classes/com/google/android/material/R$drawable.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/com.companyname.grobowiec.apk" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/com.companyname.grobowiec.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/packaged_resources" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/bin/packaged_resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/src/androidx/appcompat/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/src/androidx/appcompat/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/src/androidx/core/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/src/androidx/core/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/src/androidx/loader/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/src/androidx/loader/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/src/androidx/swiperefreshlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/src/androidx/swiperefreshlayout/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/src/com/bumptech/glide/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/src/com/bumptech/glide/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/src/com/companyname/grobowiec/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/src/com/companyname/grobowiec/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/src/com/google/android/material/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/src/com/google/android/material/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/android/manifest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/build.props" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/build.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/customview-map.txt" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/customview-map.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/devices.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/devices.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/diagnostics/fastdeploy.json" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/diagnostics/fastdeploy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/flat/values_colors.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/flat/values_colors.arsc.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/grobowiec.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/grobowiec.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/grobowiec.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/grobowiec.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/grobowiec.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/grobowiec.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/grobowiec.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/grobowiec.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/grobowiec.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/grobowiec.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/grobowiec.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/grobowiec.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/grobowiec.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/grobowiec.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/grobowiec.dll" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/grobowiec.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/grobowiec.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/grobowiec.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/grobowiec.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/grobowiec.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/grobowiec.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/grobowiec.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/mauiimage.inputs" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/mauiimage.inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/libraryimports.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/libraryimports.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/libraryprojectimports.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/libraryprojectimports.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/101/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/101/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/101/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/101/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/102/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/102/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/102/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/102/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/103/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/103/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/103/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/103/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/104/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/104/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/104/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/104/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/105/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/105/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/105/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/105/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/108/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/108/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/108/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/108/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/109/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/109/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/109/jl/flat/109.flata" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/109/jl/flat/109.flata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/109/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/109/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/110/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/110/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/110/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/110/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/111/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/111/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/111/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/111/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/112/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/112/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/112/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/112/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/113/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/113/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/113/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/113/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/115/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/115/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/115/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/115/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/116/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/116/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/116/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/116/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/117/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/117/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/117/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/117/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/119/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/119/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/119/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/119/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/121/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/121/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/121/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/121/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/123/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/123/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/123/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/123/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/124/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/124/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/124/jl/flat/124.flata" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/124/jl/flat/124.flata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/124/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/124/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/125/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/125/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/125/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/125/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/126/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/126/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/126/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/126/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/127/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/127/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/127/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/127/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/128/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/128/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/128/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/128/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/129/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/129/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/129/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/129/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/130/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/130/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/130/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/130/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/131/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/131/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/131/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/131/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/132/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/132/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/132/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/132/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/133/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/133/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/133/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/133/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/135/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/135/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/135/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/135/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/136/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/136/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/136/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/136/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/137/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/137/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/137/jl/flat/137.flata" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/137/jl/flat/137.flata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/137/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/137/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/138/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/138/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/138/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/138/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/139/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/139/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/139/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/139/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/140/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/140/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/140/jl/flat/140.flata" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/140/jl/flat/140.flata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/140/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/140/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/141/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/141/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/141/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/141/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/142/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/142/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/142/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/142/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/143/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/143/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/143/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/143/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/144/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/144/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/144/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/144/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/145/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/145/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/145/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/145/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/146/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/146/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/146/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/146/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/148/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/148/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/148/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/148/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/151/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/151/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/151/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/151/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/152/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/152/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/152/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/152/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/154/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/154/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/154/jl/flat/154.flata" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/154/jl/flat/154.flata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/154/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/154/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/155/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/155/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/155/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/155/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/156/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/156/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/156/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/156/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/157/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/157/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/157/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/157/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/158/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/158/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/158/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/158/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/159/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/159/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/159/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/159/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/160/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/160/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/160/jl/flat/160.flata" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/160/jl/flat/160.flata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/160/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/160/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/163/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/163/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/163/jl/flat/anim_enterfromleft.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/163/jl/flat/anim_enterfromleft.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/163/jl/flat/anim_enterfromright.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/163/jl/flat/anim_enterfromright.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/163/jl/flat/anim_exittoleft.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/163/jl/flat/anim_exittoleft.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/163/jl/flat/anim_exittoright.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/163/jl/flat/anim_exittoright.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/163/jl/flat/layout_flyoutcontent.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/163/jl/flat/layout_flyoutcontent.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/163/jl/flat/layout_shellcontent.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/163/jl/flat/layout_shellcontent.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/163/jl/flat/values_strings.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/163/jl/flat/values_strings.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/163/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/163/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/164/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/164/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/164/jl/flat/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/164/jl/flat/values_values.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/164/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/164/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/anim_nav_default_enter_anim.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/anim_nav_default_enter_anim.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/anim_nav_default_exit_anim.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/anim_nav_default_exit_anim.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/anim_nav_default_pop_enter_anim.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/anim_nav_default_pop_enter_anim.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/anim_nav_default_pop_exit_anim.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/anim_nav_default_pop_exit_anim.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/anim_nav_modal_default_enter_anim.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/anim_nav_modal_default_enter_anim.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/anim_nav_modal_default_exit_anim.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/anim_nav_modal_default_exit_anim.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/drawable_maui_splash.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/drawable_maui_splash.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/drawable_maui_splash_image.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/drawable_maui_splash_image.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/layout_drawer_layout.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/layout_drawer_layout.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/layout_fragment_backstack.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/layout_fragment_backstack.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/layout_navigationlayout.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/layout_navigationlayout.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/values_attr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/values_attr.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/values_colors.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/values_colors.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/values_styles.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/flat/values_styles.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/165/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/166/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/166/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/166/jl/flat/xml_microsoft_maui_essentials_fileprovider_file_paths.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/166/jl/flat/xml_microsoft_maui_essentials_fileprovider_file_paths.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/166/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/166/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/169/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/169/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/169/jl/flat/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/169/jl/flat/values_values.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/169/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/169/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/98/jl/files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/98/jl/files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/98/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/lp/98/jl/res.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/mauiimage.outputs" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/mauiimage.outputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/4892F50037BFF2E6-files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/4892F50037BFF2E6-files.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/designtime/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/designtime/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/58A809A6E808C420-files.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/58A809A6E808C420-files.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-hdpi_dotnet_bot.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-hdpi_dotnet_bot.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-hdpi_splash.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-hdpi_splash.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-hdpi_test.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-hdpi_test.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-mdpi_dotnet_bot.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-mdpi_dotnet_bot.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-mdpi_splash.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-mdpi_splash.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-mdpi_test.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-mdpi_test.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-v31_maui_splash_image.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-v31_maui_splash_image.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-xhdpi_dotnet_bot.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-xhdpi_dotnet_bot.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-xhdpi_splash.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-xhdpi_splash.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-xhdpi_test.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-xhdpi_test.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-xxhdpi_dotnet_bot.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-xxhdpi_dotnet_bot.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-xxhdpi_splash.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-xxhdpi_splash.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-xxhdpi_test.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-xxhdpi_test.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-xxxhdpi_dotnet_bot.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-xxxhdpi_dotnet_bot.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-xxxhdpi_splash.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-xxxhdpi_splash.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-xxxhdpi_test.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable-xxxhdpi_test.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable_banger_real_totally_not_illegal_gambling.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable_banger_real_totally_not_illegal_gambling.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable_icon.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable_icon.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable_kurukuru.gif.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable_kurukuru.gif.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable_maui_splash_image.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable_maui_splash_image.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable_sandgren.jpg.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/drawable_sandgren.jpg.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-anydpi-v26_appicon.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-anydpi-v26_appicon.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-anydpi-v26_appicon_round.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-anydpi-v26_appicon_round.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-hdpi_appicon.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-hdpi_appicon.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-hdpi_appicon_background.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-hdpi_appicon_background.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-hdpi_appicon_foreground.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-hdpi_appicon_foreground.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-hdpi_appicon_round.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-hdpi_appicon_round.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-mdpi_appicon.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-mdpi_appicon.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-mdpi_appicon_background.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-mdpi_appicon_background.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-mdpi_appicon_foreground.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-mdpi_appicon_foreground.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-mdpi_appicon_round.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-mdpi_appicon_round.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xhdpi_appicon.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xhdpi_appicon.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xhdpi_appicon_background.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xhdpi_appicon_background.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xhdpi_appicon_foreground.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xhdpi_appicon_foreground.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xhdpi_appicon_round.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xhdpi_appicon_round.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xxhdpi_appicon.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xxhdpi_appicon.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xxhdpi_appicon_background.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xxhdpi_appicon_background.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xxhdpi_appicon_foreground.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xxhdpi_appicon_foreground.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xxhdpi_appicon_round.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xxhdpi_appicon_round.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xxxhdpi_appicon.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xxxhdpi_appicon.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xxxhdpi_appicon_background.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xxxhdpi_appicon_background.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xxxhdpi_appicon_foreground.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xxxhdpi_appicon_foreground.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xxxhdpi_appicon_round.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/mipmap-xxxhdpi_appicon_round.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/values_maui_colors.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/flat/values_maui_colors.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resolvedassemblies.hash" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/android-arm64/resolvedassemblies.hash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/build.props" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/build.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/designtime/_Microsoft.Android.Resource.Designer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/designtime/_Microsoft.Android.Resource.Designer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/designtime/libraryimports.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/designtime/libraryimports.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/designtime/libraryprojectimports.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/designtime/libraryprojectimports.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/grobowiec.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/grobowiec.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/grobowiec.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/grobowiec.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/grobowiec.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/grobowiec.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/mauiimage.inputs" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/mauiimage.inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/grobowiec.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/grobowiec.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/grobowiec.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/grobowiec.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/mauiimage.outputs" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/mauiimage.outputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/grobowiec.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/grobowiec.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/grobowiec.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/grobowiec.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grobowiec/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/grobowiec/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,16 +277,84 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file:///tmp/JetBrainsPerUserTemp-1000-1/SourceGeneratedDocuments/9A6CBEA8F3D0E560A28EBF30/Microsoft.Maui.Controls.SourceGen/Microsoft.Maui.Controls.SourceGen.XamlGenerator/App.xaml.xsg.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file:///tmp/JetBrainsPerUserTemp-1000-1/SourceGeneratedDocuments/9A6CBEA8F3D0E560A28EBF30/Microsoft.Maui.Controls.SourceGen/Microsoft.Maui.Controls.SourceGen.XamlGenerator/AppShell.xaml.xsg.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file:///tmp/JetBrainsPerUserTemp-1000-1/SourceGeneratedDocuments/9A6CBEA8F3D0E560A28EBF30/Microsoft.Maui.Controls.SourceGen/Microsoft.Maui.Controls.SourceGen.XamlGenerator/Pages_MainPage.xaml.xsg.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file:///tmp/JetBrainsPerUserTemp-1000-1/SourceGeneratedDocuments/9A6CBEA8F3D0E560A28EBF30/Microsoft.Maui.Controls.SourceGen/Microsoft.Maui.Controls.SourceGen.XamlGenerator/Pages_TestPage.xaml.xsg.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file:///tmp/JetBrainsPerUserTemp-1000-1/SourceGeneratedDocuments/9A6CBEA8F3D0E560A28EBF30/Microsoft.Maui.Controls.SourceGen/Microsoft.Maui.Controls.SourceGen.XamlGenerator/Resources_Styles_Colors.xaml.xsg.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d9604e96fd183efba9ad11e5e5f9736144e1bed935953370c24254e5da791349/SemanticHeadingLevel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/grobowiec/obj/Debug/net10.0-android/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///tmp/JetBrainsPerUserTemp-1000-1/SourceGeneratedDocuments/304F5A05278C79DF2FCA7A4C/Microsoft.Maui.Controls.SourceGen/Microsoft.Maui.Controls.SourceGen.XamlGenerator/App.xaml.xsg.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///run/media/shouko/Dih/RiderProjects/jaja/grobowiec/AppShell.xaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///run/media/shouko/Dih/RiderProjects/jaja/grobowiec/Classes/PromoItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///run/media/shouko/Dih/RiderProjects/jaja/grobowiec/Classes/UserState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///run/media/shouko/Dih/RiderProjects/jaja/grobowiec/Pages/ItemPage.xaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///run/media/shouko/Dih/RiderProjects/jaja/grobowiec/Pages/ItemPage.xaml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///run/media/shouko/Dih/RiderProjects/jaja/grobowiec/Pages/MainPage.xaml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///run/media/shouko/Dih/RiderProjects/jaja/grobowiec/Resources/Styles/Styles.xaml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
       <facet id="grobowiec/invalid/Android Facet - grobowiec" />
     </ignored-facets>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.361978592341564" />
+      <entry key="MS500" value="4.089390921904478" />
+      <entry key="S2" value="12.819949073294882" />
+      <entry key="S5" value="24.861793575230415" />
+      <entry key="S10" value="35.46447380512487" />
+      <entry key="S30" value="47.57007916659719" />
+      <entry key="S60" value="52.61540162592596" />
+      <entry key="M2" value="58.95367179516226" />
+      <entry key="M5" value="85.1158125042804" />
+      <entry key="M10" value="149.28800915587502" />
+      <entry key="M15" value="203.45905298666204" />
+      <entry key="M30" value="296.88366081242344" />
+      <entry key="H1" value="367.5359314862342" />
+      <entry key="H2" value="411.3092670119006" />
+      <entry key="H4" value="435.72053819403027" />
+      <entry key="D1" value="457.48397557392775" />
+      <entry key="W1" value="461.3514335606495" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="5.070707120882831E-257" />
+      <entry key="S5" value="4.58572416909344E-103" />
+      <entry key="S10" value="9.572197837387738E-52" />
+      <entry key="S30" value="1.5642678252855548E-17" />
+      <entry key="S60" value="5.593285289684564E-9" />
+      <entry key="M2" value="1.0595823650585237E-4" />
+      <entry key="M5" value="0.04264438653907752" />
+      <entry key="M10" value="0.3958379163097206" />
+      <entry key="M15" value="0.9139970383983397" />
+      <entry key="M30" value="2.258582346400827" />
+      <entry key="H1" value="3.6483774741073813" />
+      <entry key="H2" value="4.668425593307282" />
+      <entry key="H4" value="5.28962874105086" />
+      <entry key="D1" value="5.8748638985352635" />
+      <entry key="W1" value="5.981950650893793" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.3339364449119557" />
+      <entry key="MS500" value="4.071956828558083" />
+      <entry key="S2" value="12.80618026347061" />
+      <entry key="S5" value="24.851135890603622" />
+      <entry key="S10" value="35.45686261297686" />
+      <entry key="S30" value="47.56666483579436" />
+      <entry key="S60" value="52.61347569947328" />
+      <entry key="M2" value="58.95263149197379" />
+      <entry key="M5" value="85.15762946426467" />
+      <entry key="M10" value="149.68261553693137" />
+      <entry key="M15" value="204.37151434063296" />
+      <entry key="M30" value="299.1406002522778" />
+      <entry key="H1" value="371.1830520225898" />
+      <entry key="H2" value="415.9769073512869" />
+      <entry key="H4" value="441.00972702592907" />
+      <entry key="D1" value="463.3587587743013" />
+      <entry key="W1" value="467.3333724909236" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -112,26 +365,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Android.grobowiec.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;lum&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;RoslynSettingsId&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Android.grobowiec.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "homik",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "RoslynSettingsId"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="grobowiec" type="XamarinAndroidProject" factoryName="Xamarin.Android">
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/grobowiec/grobowiec.csproj" />

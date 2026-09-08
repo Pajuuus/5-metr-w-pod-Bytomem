@@ -3,9 +3,9 @@ using System.Runtime.CompilerServices;
 
 namespace grobowiec.Classes;
 
-public class UserInfo
+public class UserInfo : INotifyPropertyChanged
 {
-    private string _username;
+    private string _username = string.Empty;
     private int _souls;
 
     public string Username

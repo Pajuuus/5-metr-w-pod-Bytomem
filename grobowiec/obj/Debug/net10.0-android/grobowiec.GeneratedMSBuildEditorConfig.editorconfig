@@ -20,13 +20,13 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = grobowiec
-build_property.ProjectDir = /home/lumi/Projects/School/5-metr-w-pod-Bytomem/grobowiec/
+build_property.ProjectDir = /run/media/shouko/Dih/RiderProjects/jaja/grobowiec/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[/home/lumi/Projects/School/5-metr-w-pod-Bytomem/grobowiec/App.xaml]
+[/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = grobowiec.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
@@ -36,7 +36,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/home/lumi/Projects/School/5-metr-w-pod-Bytomem/grobowiec/AppShell.xaml]
+[/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = grobowiec.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
@@ -46,7 +46,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/home/lumi/Projects/School/5-metr-w-pod-Bytomem/grobowiec/Pages/ItemPage.xaml]
+[/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/Pages/ItemPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = grobowiec.Pages.ItemPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages/ItemPage.xaml
@@ -56,7 +56,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/home/lumi/Projects/School/5-metr-w-pod-Bytomem/grobowiec/Pages/MainPage.xaml]
+[/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/Pages/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = grobowiec.Pages.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages/MainPage.xaml
@@ -66,7 +66,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/home/lumi/Projects/School/5-metr-w-pod-Bytomem/grobowiec/Pages/TestPage.xaml]
+[/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/Pages/TestPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = grobowiec.Pages.TestPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages/TestPage.xaml
@@ -76,7 +76,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/home/lumi/Projects/School/5-metr-w-pod-Bytomem/grobowiec/Resources/Styles/Colors.xaml]
+[/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = grobowiec.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
@@ -86,7 +86,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/home/lumi/Projects/School/5-metr-w-pod-Bytomem/grobowiec/Resources/Styles/Styles.xaml]
+[/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = grobowiec.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml

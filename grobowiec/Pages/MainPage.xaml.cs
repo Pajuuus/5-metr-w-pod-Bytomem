@@ -1,11 +1,12 @@
 ﻿using System.Collections.ObjectModel;
 using grobowiec.Classes;
+using grobowiec.Pages;
 
 namespace grobowiec;
 
 public partial class MainPage : ContentPage
 {
-    public UserInfo User { get; set; }
+    public UserInfo User => UserState.Current;
     
     public ObservableCollection<PromoItem> DailyPromos { get; set; }
 
@@ -13,18 +14,12 @@ public partial class MainPage : ContentPage
     {
         InitializeComponent();
 
-        User = new UserInfo
-        {
-            Username = "Marian",
-            Souls = 8
-        };
-
         DailyPromos = new ObservableCollection<PromoItem>
         {
-            new PromoItem { Title = "Trumna1", PromoPrice = "tak zł", OldPrice = "0 zł", ImageUrl = "sandgren.jpg" },
-            new PromoItem { Title = "Trumna2", PromoPrice = "2 zł", OldPrice = "1 zł", ImageUrl = "sandgren.jpg" },
-            new PromoItem { Title = "Nagrobek1", PromoPrice = "6.99 zł", OldPrice = "-1 zł", ImageUrl = "dotnet_bot.png" },
-            new PromoItem { Title = "Nagrobek2", PromoPrice = "4.20 zł", OldPrice = "21.37 zł", ImageUrl = "sandgren.jpg" }
+            new PromoItem { Title = "Trumna1", PromoPrice = "tak zł", OldPrice = "0 zł", ImageUrl = "sandgren.jpg", SoulCost = 500 },
+            new PromoItem { Title = "Trumna2", PromoPrice = "2 zł", OldPrice = "1 zł", ImageUrl = "sandgren.jpg", SoulCost = 800 },
+            new PromoItem { Title = "Nagrobek1", PromoPrice = "6.99 zł", OldPrice = "-1 zł", ImageUrl = "dotnet_bot.png", SoulCost = 1000 },
+            new PromoItem { Title = "Nagrobek2", PromoPrice = "4.20 zł", OldPrice = "21.37 zł", ImageUrl = "sandgren.jpg", SoulCost = 1500 }
         };
 
         BindingContext = this;
@@ -44,11 +39,16 @@ public partial class MainPage : ContentPage
         Anims.StopPulse(eee);
     }
 
-    // Za huj nie dziala
-    public void OpenItemPage(object sender, TappedEventArgs e)
+    public async void OpenItemPage(object sender, TappedEventArgs e)
     {
-        Console.WriteLine("senderAAAAAAAAAAAAAAAAAAAAAAAAAAAA:");
-        Console.WriteLine();
-        Console.WriteLine("\n\n\n\n\n\n\n\n\n\n\n\n");
+        if (sender is BindableObject bindable && bindable.BindingContext is PromoItem selectedItem)
+        {
+            var navParams = new Dictionary<string, object>
+            {
+                { "Item", selectedItem }
+            };
+
+            await Shell.Current.GoToAsync(nameof(ItemPage), navParams);
+        }
     }
 }

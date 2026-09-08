@@ -1,9 +1,138 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="grobowiec.Pages.ItemPage">
-    <ContentPage.Content>
-        <Label>meow</Label>
-    </ContentPage.Content>
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20,12" Spacing="16">
+
+            <Grid ColumnDefinitions="*, Auto" Margin="0,0,0,8">
+                <HorizontalStackLayout Grid.Column="0" Spacing="6" VerticalOptions="Center">
+                    <Label Text="Szczegóły"
+                           Style="{StaticResource Headline}"
+                           SemanticProperties.HeadingLevel="Level1" />
+                </HorizontalStackLayout>
+
+                <Border Grid.Column="1"
+                        StrokeShape="RoundRectangle 8"
+                        BackgroundColor="#231B32"
+                        Stroke="#473B5E"
+                        Padding="10,6"
+                        VerticalOptions="Center">
+                    <HorizontalStackLayout Spacing="6">
+                        <Label x:Name="SoulsCountLabel"
+                               TextColor="#C084FC"
+                               FontAttributes="Bold"
+                               FontSize="14"
+                               VerticalOptions="Center" />
+                    </HorizontalStackLayout>
+                </Border>
+            </Grid>
+
+            <BoxView HeightRequest="1"
+                     Color="#382C4E"
+                     HorizontalOptions="Fill" />
+
+            <Border StrokeShape="RoundRectangle 12"
+                    Stroke="#473B5E"
+                    StrokeThickness="1"
+                    BackgroundColor="#1E172B"
+                    Padding="12">
+                <VerticalStackLayout Spacing="12">
+                    <Image x:Name="ItemImage"
+                           Aspect="AspectFit"
+                           HeightRequest="180" />
+
+                    <Label x:Name="TitleLabel"
+                           TextColor="#F3E8FF"
+                           FontSize="18"
+                           FontAttributes="Bold" />
+
+                    <HorizontalStackLayout Spacing="8" VerticalOptions="Center">
+                        <Label x:Name="PriceLabel"
+                               TextColor="#C084FC"
+                               FontAttributes="Bold"
+                               FontSize="16" />
+
+                        <Label x:Name="OldPriceLabel"
+                               TextColor="#8B7FA8"
+                               TextDecorations="Strikethrough"
+                               FontSize="13"
+                               VerticalOptions="Center" />
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Border>
+
+            <BoxView HeightRequest="1"
+                     Color="#382C4E"
+                     HorizontalOptions="Fill" />
+
+            <Label Text="Wymiana na urny"
+                   FontSize="16"
+                   FontAttributes="Bold"
+                   Style="{StaticResource SubHeadline}"
+                   SemanticProperties.HeadingLevel="Level2" />
+
+            <Border StrokeShape="RoundRectangle 10"
+                    Stroke="#473B5E"
+                    BackgroundColor="#231B32"
+                    Padding="16">
+                <VerticalStackLayout Spacing="12">
+
+                    <VerticalStackLayout x:Name="ProgressSection" Spacing="6">
+                        <Grid ColumnDefinitions="*, Auto">
+                            <Label x:Name="ProgressLabel"
+                                   TextColor="#8B7FA8"
+                                   FontSize="13" />
+                            <Label Grid.Column="1"
+                                   x:Name="PercentLabel"
+                                   TextColor="#C084FC"
+                                   FontAttributes="Bold"
+                                   FontSize="13" />
+                        </Grid>
+
+                        <ProgressBar x:Name="SoulsProgressBar"
+                                     ProgressColor="#A855F7" />
+                    </VerticalStackLayout>
+
+                    <Button x:Name="ActivateBtn"
+                            TextColor="#FFFFFF"
+                            FontAttributes="Bold"
+                            FontSize="14"
+                            CornerRadius="8"
+                            HeightRequest="44"
+                            Clicked="OnActivateCouponClicked" />
+
+                    <Border x:Name="ActiveCouponCard"
+                            IsVisible="False"
+                            StrokeShape="RoundRectangle 8"
+                            Stroke="#A855F7"
+                            BackgroundColor="#281438"
+                            Padding="12">
+                        <VerticalStackLayout Spacing="6" HorizontalOptions="Center">
+                            <Label Text="KUPON AKTYWNY"
+                                   TextColor="#D8B4FE"
+                                   FontAttributes="Bold"
+                                   FontSize="14"
+                                   HorizontalTextAlignment="Center" />
+
+                            <Label x:Name="CouponCodeLabel"
+                                   TextColor="#FFFFFF"
+                                   FontAttributes="Bold"
+                                   FontSize="20"
+                                   HorizontalTextAlignment="Center" />
+
+                            <Label Text="Pokaż kod przy nagrubku"
+                                   TextColor="#8B7FA8"
+                                   FontSize="12"
+                                   HorizontalTextAlignment="Center" />
+                        </VerticalStackLayout>
+                    </Border>
+
+                </VerticalStackLayout>
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
 </ContentPage>

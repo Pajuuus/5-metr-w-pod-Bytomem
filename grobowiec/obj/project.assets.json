@@ -11011,20 +11011,20 @@
     ]
   },
   "packageFolders": {
-    "/home/lumi/.nuget/packages/": {}
+    "/home/shouko/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/lumi/Projects/School/5-metr-w-pod-Bytomem/grobowiec/grobowiec.csproj",
+      "projectUniqueName": "/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/grobowiec.csproj",
       "projectName": "grobowiec",
-      "projectPath": "/home/lumi/Projects/School/5-metr-w-pod-Bytomem/grobowiec/grobowiec.csproj",
-      "packagesPath": "/home/lumi/.nuget/packages/",
-      "outputPath": "/home/lumi/Projects/School/5-metr-w-pod-Bytomem/grobowiec/obj/",
+      "projectPath": "/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/grobowiec.csproj",
+      "packagesPath": "/home/shouko/.nuget/packages/",
+      "outputPath": "/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
-        "/home/lumi/.nuget/NuGet/NuGet.Config"
+        "/home/shouko/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0-android"

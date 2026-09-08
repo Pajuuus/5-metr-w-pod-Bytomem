@@ -1,4 +1,6 @@
-﻿namespace grobowiec;
+﻿using grobowiec.Pages;
+
+namespace grobowiec;
 
 public partial class AppShell : Shell
 {
@@ -7,19 +9,8 @@ public partial class AppShell : Shell
         InitializeComponent();
         Routing.RegisterRoute(nameof(TestPage), typeof(TestPage));
         Routing.RegisterRoute(nameof(MainPage), typeof(MainPage));
-    }
+        Routing.RegisterRoute(nameof(ItemPage), typeof(ItemPage));
 
-    // private async void OnKuruClicked(object sender, EventArgs e)
-    // {
-    //     FlyoutIsPresented = false;
-    //     
-    //     await GoToAsync(nameof(TestPage));
-    // }
-    //
-    // private async void OnHomeClicked(object sender, EventArgs e)
-    // {
-    //     FlyoutIsPresented = false;
-    //     
-    //     await GoToAsync(nameof(MainPage));
-    // }
+        CurrentItem = MainTab;
+    }
 }

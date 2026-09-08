@@ -5,41 +5,17 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:grobowiec"
     FlyoutWidth="150"
-    FlyoutBackgroundColor="#2B2B2B"
+    FlyoutBackgroundColor="#1B1428"
     Title="grobowiec">
 
-    <!-- <FlyoutItem Title="Main"> -->
-    <!--     <ShellContent -->
-    <!--         ContentTemplate="{DataTemplate local:MainPage}" -->
-    <!--         Route="MainPage" /> -->
-    <!-- </FlyoutItem> -->
-    <!-- -->
-    <!-- <Shell.FlyoutHeader> -->
-    <!--     <VerticalStackLayout Padding="12" Spacing="10"> -->
-    <!--         <Label HorizontalOptions="Fill" Text="Grobowiec" />   -->
-    <!--     </VerticalStackLayout> -->
-    <!-- </Shell.FlyoutHeader> -->
-    <!-- -->
-    <!-- <Shell.FlyoutFooter> -->
-    <!--     <VerticalStackLayout Padding="12" Spacing="10"> -->
-    <!--         <Button  -->
-    <!--             Text="Kuru ^^" -->
-    <!--             Clicked="OnKuruClicked" -->
-    <!--             BackgroundColor="#3D3D3D" -->
-    <!--             TextColor="White" /> -->
-    <!--     </VerticalStackLayout> -->
-    <!-- </Shell.FlyoutFooter> -->
-    
-    <!-- bar na dole ekranu ktory pozostaje miedzy stronami -->
-    <TabBar>
+    <TabBar x:Name="AppTabBar" CurrentItem="{x:Reference MainTab}">
         <Tab Title="Koszyk" Icon="test.svg">
             <ShellContent
                 ContentTemplate="{DataTemplate local:MainPage}"
-                Route="MainPage" />
+                Route="Koszyk" />
         </Tab>
 
-        <!-- zdjecia zamienia na poprostu bialy fill tak jak svg -->
-        <Tab Title="Main" Icon="dotnet_bot.png">
+        <Tab x:Name="MainTab" Title="Main" Icon="dotnet_bot.png">
             <ShellContent
                 ContentTemplate="{DataTemplate local:MainPage}"
                 Route="MainPage" />
