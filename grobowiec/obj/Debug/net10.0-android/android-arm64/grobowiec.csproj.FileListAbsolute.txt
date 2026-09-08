@@ -3197,3 +3197,15 @@
 /run/media/shouko/Dih/RiderProjects/jaja/grobowiec/obj/Debug/net10.0-android/android-arm64/stamp/_ResolveLibraryProjectImports.stamp
 /run/media/shouko/Dih/RiderProjects/jaja/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable/kurukuru.gif
 /run/media/shouko/Dih/RiderProjects/jaja/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable/sandgren.jpg
+/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/sp/drawable-hdpi/appiconfg.png
+/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/sp/drawable-mdpi/appiconfg.png
+/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/sp/drawable-xhdpi/appiconfg.png
+/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/sp/drawable-xxhdpi/appiconfg.png
+/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/sp/drawable-xxxhdpi/appiconfg.png
+/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/f/Lexend-Light.ttf
+/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/obj/Debug/net10.0-android/android-arm64/assets/Lexend-Light.ttf
+/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable-xxxhdpi/test.png
+/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable-xxhdpi/test.png
+/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable-xhdpi/test.png
+/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable-hdpi/test.png
+/run/media/shouko/Dih/RiderProjects/jaja/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable-mdpi/test.png

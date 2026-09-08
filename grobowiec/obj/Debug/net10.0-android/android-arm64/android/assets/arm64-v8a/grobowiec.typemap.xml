@@ -1,4 +1,4 @@
-<api type="debug" assembly-name="grobowiec" mvid="04ad01799f464ead98959918df5e1dd8">
+<api type="debug" assembly-name="grobowiec" mvid="dd21327203c642bfb3f299485bb89942">
   <java-to-managed>
     <entry java-name="crc648e4fc53b69b89647/MainActivity" managed-name="grobowiec.MainActivity, grobowiec" managed-type-token-id="33554442" />
     <entry java-name="crc648e4fc53b69b89647/MainApplication" managed-name="grobowiec.MainApplication, grobowiec" managed-type-token-id="33554443" />

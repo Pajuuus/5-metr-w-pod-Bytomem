@@ -9,17 +9,17 @@ public partial class AppShell : Shell
         Routing.RegisterRoute(nameof(MainPage), typeof(MainPage));
     }
 
-    private async void OnKuruClicked(object sender, EventArgs e)
-    {
-        FlyoutIsPresented = false;
-        
-        await GoToAsync(nameof(TestPage));
-    }
-    
-    private async void OnHomeClicked(object sender, EventArgs e)
-    {
-        FlyoutIsPresented = false;
-        
-        await GoToAsync(nameof(MainPage));
-    }
+    // private async void OnKuruClicked(object sender, EventArgs e)
+    // {
+    //     FlyoutIsPresented = false;
+    //     
+    //     await GoToAsync(nameof(TestPage));
+    // }
+    //
+    // private async void OnHomeClicked(object sender, EventArgs e)
+    // {
+    //     FlyoutIsPresented = false;
+    //     
+    //     await GoToAsync(nameof(MainPage));
+    // }
 }

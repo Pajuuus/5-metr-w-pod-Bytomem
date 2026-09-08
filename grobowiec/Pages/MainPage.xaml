@@ -93,7 +93,8 @@
                      Color="#404040"
                      HorizontalOptions="Fill" />
 
-            <Border StrokeShape="RoundRectangle 10"
+            <Border x:Name="eee"
+                StrokeShape="RoundRectangle 10"
                     Stroke="#DC2626"
                     BackgroundColor="#2A1515"
                     Padding="16"

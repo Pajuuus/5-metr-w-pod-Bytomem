@@ -1,10 +1,15 @@
 ﻿obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable/kurukuru.gif
 obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable/sandgren.jpg
 obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable-hdpi/dotnet_bot.png
+obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable-hdpi/test.png
 obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable-mdpi/dotnet_bot.png
+obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable-mdpi/test.png
 obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable-xhdpi/dotnet_bot.png
+obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable-xhdpi/test.png
 obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable-xxhdpi/dotnet_bot.png
+obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable-xxhdpi/test.png
 obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable-xxxhdpi/dotnet_bot.png
+obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable-xxxhdpi/test.png
 obj/Debug/net10.0-android/android-arm64/resizetizer/r/mipmap-anydpi-v26/appicon.xml
 obj/Debug/net10.0-android/android-arm64/resizetizer/r/mipmap-anydpi-v26/appicon_round.xml
 obj/Debug/net10.0-android/android-arm64/resizetizer/r/mipmap-hdpi/appicon.png
