@@ -112,7 +112,12 @@
                            FontAttributes="Bold" />
                 </VerticalStackLayout>
             </Border>
-
+            
+            <BoxView HeightRequest="1"
+                     Color="#404040"
+                     HorizontalOptions="Fill" />
+            
+            
         </VerticalStackLayout>
     </ScrollView>
 
