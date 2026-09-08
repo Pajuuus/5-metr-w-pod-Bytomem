@@ -29,7 +29,7 @@ public static class Anims
     }
     
     // Shake jakbys cos zjebal
-    public static void Shake(this VisualElement target, double offset = 14, uint duration = 400)
+    public static void Shake(this VisualElement target, double offset = 14, uint duration = 400, bool repeat = true)
     {
         target.AbortAnimation("ShakeAnim");
 
@@ -44,7 +44,8 @@ public static class Anims
             owner: target,
             name: "ShakeAnim",
             length: duration,
-            finished: (v, c) => target.TranslationX = 0
+            finished: (v, c) => target.TranslationX = 0,
+            repeat: () => repeat
         );
     }
     

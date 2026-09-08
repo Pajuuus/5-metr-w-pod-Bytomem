@@ -1606,3 +1606,5 @@
 /home/lumi/Projects/School/5-metr-w-pod-Bytomem/grobowiec/obj/Debug/net10.0-android/android-arm64/stamp/_GenerateJavaStubs.stamp
 /home/lumi/Projects/School/5-metr-w-pod-Bytomem/grobowiec/obj/Debug/net10.0-android/android-arm64/stamp/_GeneratePackageManagerJava.stamp
 /home/lumi/Projects/School/5-metr-w-pod-Bytomem/grobowiec/obj/Debug/net10.0-android/android-arm64/stamp/_ResolveLibraryProjectImports.stamp
+/home/lumi/Projects/School/5-metr-w-pod-Bytomem/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable/icon.png
+/home/lumi/Projects/School/5-metr-w-pod-Bytomem/grobowiec/obj/Debug/net10.0-android/android-arm64/resizetizer/r/drawable/banger_real_totally_not_illegal_gambling.png

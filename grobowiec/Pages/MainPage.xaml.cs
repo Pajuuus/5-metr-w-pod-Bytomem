@@ -34,12 +34,21 @@ public partial class MainPage : ContentPage
     {
         base.OnAppearing();
         Anims.StartPulse(eee);
+        Anims.StartPulse(banger_real_totally_not_illegal_gambling);
+        Anims.Shake(banger_real_totally_not_illegal_gambling);
     }
 
     protected override void OnDisappearing()
     {
         base.OnDisappearing();
         Anims.StopPulse(eee);
-        eee.Scale = 1.0;
+    }
+
+    // Za huj nie dziala
+    public void OpenItemPage(object sender, TappedEventArgs e)
+    {
+        Console.WriteLine("senderAAAAAAAAAAAAAAAAAAAAAAAAAAAA:");
+        Console.WriteLine();
+        Console.WriteLine("\n\n\n\n\n\n\n\n\n\n\n\n");
     }
 }

@@ -58,9 +58,12 @@
                                 WidthRequest="180"
                                 Padding="12"
                                 Margin="2">
-
-                            <VerticalStackLayout Spacing="8">
-                                <Image Source="{Binding ImageUrl}"
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OpenItemPage"></TapGestureRecognizer>
+                            </Border.GestureRecognizers>
+                                
+                                <VerticalStackLayout Spacing="8">
+                                <Image  Source="{Binding ImageUrl}"
                                        Aspect="AspectFill"
                                        HeightRequest="90"
                                        WidthRequest="156" />
@@ -117,6 +120,9 @@
                      Color="#404040"
                      HorizontalOptions="Fill" />
             
+            <Image x:Name="banger_real_totally_not_illegal_gambling"
+                   Source="banger_real_totally_not_illegal_gambling.png">
+            </Image>
             
         </VerticalStackLayout>
     </ScrollView>
