@@ -9,6 +9,16 @@ namespace grobowiec;
 
 public partial class TestPage : ContentPage
 {
+    // Temporary solution
+    public class Ussr
+    {
+        public string Username = "Marcin";
+        public int Souls = 2137;
+    }
+    
+    // nie wiem jak dziala "UserInfo.Current" ale wyglada na to ze tutaj nie dziala xd
+    public Ussr User = new Ussr();
+    
     public TestPage()
     {
         InitializeComponent();

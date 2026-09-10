@@ -5,6 +5,19 @@
              x:Class="grobowiec.TestPage">
     <ScrollView>
         <VerticalStackLayout Padding="30,0" Spacing="25">
+            <Label Text="{Binding User.Username, StringFormat='Witaj, {0}'}"
+                   FontAttributes="Bold"
+                   Style="{StaticResource Headline}" />
+            
+            <Label Text="{Binding User.Souls, StringFormat='Urny: {0}'}"
+                   TextColor="#C084FC"
+                   FontAttributes="Bold"
+                   FontSize="14"
+                   VerticalOptions="Center" />
+            
+            <BoxView HeightRequest="1"
+                     Color="#404040"
+                     HorizontalOptions="Fill" />
             
             <Label Text="Credits"
                    Style="{StaticResource Headline}"
