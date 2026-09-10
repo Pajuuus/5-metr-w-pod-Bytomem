@@ -14,35 +14,52 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4de96b6-273a-4239-88b4-edd74ece4882" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GrobowiecWeb.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GrobowiecWeb/GrobowiecWeb.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GrobowiecWeb/GrobowiecWeb.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GrobowiecWeb/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GrobowiecWeb/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GrobowiecWeb/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GrobowiecWeb/appsettings.json" afterDir="false" />
-    </list>
+    <list default="true" id="c4de96b6-273a-4239-88b4-edd74ece4882" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="d2ef113c-7c23-4075-a7b1-ccde2fb98397" value="" />
+    </colors>
+  </component>
   <component name="DpaMonitoringSettings">
     <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;homik69&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Pajuuus/5-metr-w-pod-Bytomem.git&quot;,
+    &quot;accountId&quot;: &quot;3d2b78a4-1409-4cf7-83c5-608dfc66b8d7&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/GrobowiecWeb/Data/Context.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GrobowiecWeb/Models/Item.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GrobowiecWeb/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GrobowiecWeb/appsettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0,
-  "fromUser": false
-}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3J8h6tUXT2nXnwfNul6PTkOc735" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,7 +68,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     ".NET Launch Settings Profile.GrobowiecWeb: http.executor": "Run",
+    ".NET Launch Settings Profile.GrobowiecWeb: https.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -59,12 +78,17 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "homik",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/run/media/shouko/Dih/RiderProjects/jaja/GrobowiecWeb/GrobowiecWeb.sln",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "to.speed.mode.migration.done": "true"
   }
 }]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.GrobowiecWeb: http">
@@ -135,5 +159,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

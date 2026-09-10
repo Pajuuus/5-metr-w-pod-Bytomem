@@ -1,6 +1,30 @@
 @GrobowiecWeb_HostAddress = http://localhost:5039
 
-GET {{GrobowiecWeb_HostAddress}}/weatherforecast/
+### Get all items
+GET {{GrobowiecWeb_HostAddress}}/api/items
 Accept: application/json
 
-###
+### Create item
+POST {{GrobowiecWeb_HostAddress}}/api/items
+Content-Type: application/json
+
+{
+  "title": "New Task",
+  "isCompleted": false
+}
+
+### Get item by id
+GET {{GrobowiecWeb_HostAddress}}/api/items/1
+Accept: application/json
+
+### Update item
+PUT {{GrobowiecWeb_HostAddress}}/api/items/1
+Content-Type: application/json
+
+{
+  "title": "Updated Task",
+  "isCompleted": true
+}
+
+### Delete item
+DELETE {{GrobowiecWeb_HostAddress}}/api/items/1
