@@ -1,0 +1,18 @@
+{
+  "Task": "FastDeploy",
+  "Properties": {
+    "target.prop.ro.product.build.version.sdk": "29",
+    "target.prop.ro.product.cpu.abilist": "armeabi-v7a;armeabi",
+    "target.prop.ro.product.manufacturer": "Xiaomi",
+    "target.prop.ro.product.model": "M2006C3MNG",
+    "target.prop.ro.product.cpu.abi": "armeabi-v7a",
+    "deploy.error.code": "",
+    "deploy.tool": "xamarin.sync",
+    "deploy.result": "Success",
+    "deploy.supports.fastdev": "True",
+    "deploy.systemapp": "False",
+    "deploy.duration.ms": "69276",
+    "pii.deploy.error": "",
+    "pii.deploy.file": ""
+  }
+}

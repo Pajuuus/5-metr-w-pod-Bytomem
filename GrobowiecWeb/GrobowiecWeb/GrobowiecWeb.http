@@ -1,0 +1,6 @@
+@GrobowiecWeb_HostAddress = http://localhost:5039
+
+GET {{GrobowiecWeb_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

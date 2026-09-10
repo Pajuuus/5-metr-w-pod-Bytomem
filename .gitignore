@@ -1,4 +1,11 @@
-grobowiec/obj
-grobowiec/bin
+Grobowiec/bin/
+Grobowiec/obj/
 
-.idea
+GrobowiecWeb/bin/
+GrobowiecWeb/obj/
+
+Grobowiec/packages/
+GrobowiecWeb/packages/
+
+Grobowiec/riderModule.iml
+GrobowiecWeb/riderModule.iml
