@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("grobowiec")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f7a38815a520926ab62cf8f55da774cf10dfeb1e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+fff0b85c7eb9077f78fe41672fa1921c29b745e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("grobowiec")]
 [assembly: System.Reflection.AssemblyTitleAttribute("grobowiec")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

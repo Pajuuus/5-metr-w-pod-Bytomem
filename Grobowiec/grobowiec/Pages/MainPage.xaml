@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -64,10 +64,26 @@
                             </Border.GestureRecognizers>
                                 
                             <VerticalStackLayout Spacing="8">
-                                <Image Source="{Binding ImageUrl}"
-                                       Aspect="AspectFill"
-                                       HeightRequest="90"
-                                       WidthRequest="156" />
+                                <Grid>
+                                    <Image Source="{Binding ImageUrl}"
+                                           Aspect="AspectFill"
+                                           HeightRequest="90"
+                                           WidthRequest="156" />
+
+                                    <Border IsVisible="{Binding IsActivated}"
+                                            BackgroundColor="#D9160C22"
+                                            Stroke="#A855F7"
+                                            StrokeThickness="1"
+                                            StrokeShape="RoundRectangle 6"
+                                            HorizontalOptions="Center"
+                                            VerticalOptions="Center"
+                                            Padding="10,4">
+                                        <Label Text="ODEBRANO"
+                                               TextColor="#D8B4FE"
+                                               FontSize="11"
+                                               FontAttributes="Bold" />
+                                    </Border>
+                                </Grid>
 
                                 <Label Text="{Binding Title}"
                                        TextColor="#F3E8FF"
@@ -87,6 +103,86 @@
                                            FontSize="11"
                                            VerticalOptions="Center" />
                                 </HorizontalStackLayout>
+                            </VerticalStackLayout>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <BoxView HeightRequest="1"
+                     Color="#382C4E"
+                     HorizontalOptions="Fill" />
+
+            <Label Text="Dostępne kupony"
+                   FontSize="16"
+                   FontAttributes="Bold"
+                   Style="{StaticResource SubHeadline}"
+                   SemanticProperties.HeadingLevel="Level2" />
+
+            <CollectionView ItemsSource="{Binding AvailableCoupons}"
+                            HeightRequest="120"
+                            HorizontalScrollBarVisibility="Never">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Horizontal" ItemSpacing="12" />
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.EmptyView>
+                    <Border StrokeShape="RoundRectangle 8"
+                            Stroke="#473B5E"
+                            StrokeDashArray="4,4"
+                            BackgroundColor="#171222"
+                            Padding="16"
+                            HorizontalOptions="Fill">
+                        <Label Text="Brak dostępnych kuponów — wymień urny na kupon w sekcji powyżej!"
+                               TextColor="#8B7FA8"
+                               FontSize="13"
+                               HorizontalTextAlignment="Center" />
+                    </Border>
+                </CollectionView.EmptyView>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Border StrokeShape="RoundRectangle 12"
+                                Stroke="#A855F7"
+                                StrokeThickness="1"
+                                BackgroundColor="#231435"
+                                WidthRequest="240"
+                                Padding="12"
+                                Margin="2">
+                            <VerticalStackLayout Spacing="6">
+                                <Grid ColumnDefinitions="*, Auto">
+                                    <Label Text="{Binding Title}"
+                                           TextColor="#F3E8FF"
+                                           FontSize="13"
+                                           FontAttributes="Bold"
+                                           LineBreakMode="TailTruncation"
+                                           MaxLines="1" />
+                                    <Border Grid.Column="1"
+                                            StrokeShape="RoundRectangle 4"
+                                            BackgroundColor="#3B1C5A"
+                                            Stroke="#A855F7"
+                                            Padding="6,2">
+                                        <Label Text="AKTYWNY"
+                                               TextColor="#D8B4FE"
+                                               FontSize="10"
+                                               FontAttributes="Bold" />
+                                    </Border>
+                                </Grid>
+                                <Border StrokeShape="RoundRectangle 6"
+                                        BackgroundColor="#160C22"
+                                        Stroke="#473B5E"
+                                        Padding="8,4"
+                                        HorizontalOptions="Fill">
+                                    <Label Text="{Binding CouponCode}"
+                                           TextColor="#C084FC"
+                                           FontAttributes="Bold"
+                                           FontSize="13"
+                                           HorizontalTextAlignment="Center" />
+                                </Border>
+                                <Label Text="{Binding PurchasedAt, StringFormat='Wymieniono: {0:dd.MM.yyyy HH:mm}'}"
+                                       TextColor="#8B7FA8"
+                                       FontSize="11"
+                                       HorizontalTextAlignment="Center" />
                             </VerticalStackLayout>
                         </Border>
                     </DataTemplate>

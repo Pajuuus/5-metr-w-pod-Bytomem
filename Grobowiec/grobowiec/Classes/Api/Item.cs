@@ -1,4 +1,4 @@
-namespace grobowiec.Classes;
+namespace Grobowiec.Classes.Api;
 
 public class Item
 {

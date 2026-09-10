@@ -1,19 +1,22 @@
-﻿using System.Collections.ObjectModel;
+using System.Collections.ObjectModel;
+using System.Diagnostics;
 using grobowiec.Classes;
-using grobowiec.Classes.Api;
 using grobowiec.Pages;
+using Grobowiec.Classes.Api;
+using Grobowiec.Services;
 
 namespace grobowiec;
 
 public partial class MainPage : ContentPage
 {
-    private readonly ApiService _apiService;
+    private readonly ItemApiService _apiService;
     
     public UserInfo User => UserState.Current;
     
     public ObservableCollection<PromoItem> DailyPromos { get; set; }
+    public ObservableCollection<Coupon> AvailableCoupons { get; set; } = new();
 
-    public MainPage(ApiService apiService)
+    public MainPage(ItemApiService apiService)
     {
         InitializeComponent();
         _apiService = apiService;
@@ -35,14 +38,41 @@ public partial class MainPage : ContentPage
         BindingContext = this;
     }
 
-    async protected override void OnAppearing()
+    protected override async void OnAppearing()
     {
         base.OnAppearing();
         
         Anims.StartPulse(eee);
         Anims.Shake(banger_real_totally_not_illegal_gambling);
         
-        var items = await _apiService.GetItemsAsync();
+        try
+        {
+            var coupons = await _apiService.GetCouponsAsync();
+            AvailableCoupons.Clear();
+            foreach (var coupon in coupons)
+            {
+                AvailableCoupons.Add(coupon);
+            }
+
+            // Sync bought status with DailyPromos so already bought items persist across restarts
+            foreach (var promo in DailyPromos)
+            {
+                var bought = coupons.FirstOrDefault(c => c.Title == promo.Title);
+                if (bought != null)
+                {
+                    promo.IsActivated = true;
+                    promo.CouponCode = bought.CouponCode;
+                }
+            }
+
+            // Deduct spent souls for bought items
+            int totalSpent = coupons.Sum(c => c.SoulCost);
+            UserState.Current.Souls = Math.Max(0, 2137 - totalSpent);
+        }
+        catch (Exception ex)
+        {
+            Debug.WriteLine($"[API Error] Failed to fetch coupons: {ex.Message}");
+        }
     }
 
     protected override void OnDisappearing()

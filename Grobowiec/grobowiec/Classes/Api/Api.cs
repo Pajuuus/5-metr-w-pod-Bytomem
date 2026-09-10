@@ -1,41 +1,74 @@
 using System.Net.Http.Json;
+using Grobowiec.Classes.Api;
 
-namespace grobowiec.Classes.Api;
+namespace Grobowiec.Services;
 
-public class ApiService
+public class ItemApiService
 {
     private readonly HttpClient _httpClient;
 
-    // Use 10.0.2.2 for Android emulator, localhost for Linux desktop
-    private static readonly string BaseUrl = DeviceInfo.Platform == DevicePlatform.Android 
-        ? "http://10.0.2.2:5000" // Replace 5000 with your API's HTTP port
-        : "http://localhost:5000";
+    // Resolve localhost dynamically based on platform:
+    // - Android Emulator uses 10.0.2.2
+    // - Physical Android device uses localhost (with 'adb reverse tcp:5039 tcp:5039')
+    // - Windows/Mac/Linux uses localhost
+    public static string BaseUrl => DeviceInfo.Platform == DevicePlatform.Android
+        ? (DeviceInfo.DeviceType == DeviceType.Physical ? "http://localhost:5039" : "http://10.0.2.2:5039")
+        : "http://localhost:5039";
 
-    public ApiService(HttpClient httpClient)
+    public ItemApiService()
     {
-        _httpClient = httpClient;
-        _httpClient.BaseAddress = new Uri(BaseUrl);
+        _httpClient = new HttpClient
+        {
+            BaseAddress = new Uri(BaseUrl),
+            Timeout = TimeSpan.FromSeconds(10)
+        };
     }
 
-    // GET: api/items
     public async Task<List<Item>> GetItemsAsync()
     {
-        try
-        {
-            var items = await _httpClient.GetFromJsonAsync<List<Item>>("api/items");
-            return items ?? new List<Item>();
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"API Error: {ex.Message}");
-            return new List<Item>();
-        }
+        return await _httpClient.GetFromJsonAsync<List<Item>>("/api/items") ?? new();
     }
 
-    // POST: api/items
-    public async Task<bool> CreateItemAsync(Item item)
+    public async Task<Item?> GetItemByIdAsync(int id)
     {
-        var response = await _httpClient.PostAsJsonAsync("api/items", item);
-        return response.IsSuccessStatusCode;
+        return await _httpClient.GetFromJsonAsync<Item>($"/api/items/{id}");
+    }
+
+    public async Task<Item?> CreateItemAsync(Item item)
+    {
+        var response = await _httpClient.PostAsJsonAsync("/api/items", item);
+        response.EnsureSuccessStatusCode();
+        return await response.Content.ReadFromJsonAsync<Item>();
+    }
+
+    public async Task UpdateItemAsync(Item item)
+    {
+        var response = await _httpClient.PutAsJsonAsync($"/api/items/{item.Id}", item);
+        response.EnsureSuccessStatusCode();
+    }
+
+    public async Task DeleteItemAsync(int id)
+    {
+        var response = await _httpClient.DeleteAsync($"/api/items/{id}");
+        response.EnsureSuccessStatusCode();
+    }
+
+    // Coupons API
+    public async Task<List<Coupon>> GetCouponsAsync()
+    {
+        return await _httpClient.GetFromJsonAsync<List<Coupon>>("/api/coupons") ?? new();
+    }
+
+    public async Task<Coupon?> CreateCouponAsync(Coupon coupon)
+    {
+        var response = await _httpClient.PostAsJsonAsync("/api/coupons", coupon);
+        response.EnsureSuccessStatusCode();
+        return await response.Content.ReadFromJsonAsync<Coupon>();
+    }
+
+    public async Task UseCouponAsync(int id)
+    {
+        var response = await _httpClient.PutAsync($"/api/coupons/{id}/use", null);
+        response.EnsureSuccessStatusCode();
     }
 }

@@ -1,10 +1,14 @@
+using System.Diagnostics;
 using grobowiec.Classes;
+using Grobowiec.Classes.Api;
+using Grobowiec.Services;
 
 namespace grobowiec.Pages;
 
 [QueryProperty(nameof(Promo), "Item")]
 public partial class ItemPage : ContentPage
 {
+    private readonly ItemApiService? _apiService;
     private PromoItem _promo;
 
     public PromoItem Promo
@@ -17,9 +21,14 @@ public partial class ItemPage : ContentPage
         }
     }
 
-    public ItemPage()
+    public ItemPage(ItemApiService apiService)
     {
         InitializeComponent();
+        _apiService = apiService;
+    }
+
+    public ItemPage() : this(Application.Current?.Handler?.MauiContext?.Services.GetService<ItemApiService>() ?? new ItemApiService())
+    {
     }
 
     private void UpdateUI()
@@ -67,18 +76,66 @@ public partial class ItemPage : ContentPage
         }
     }
 
+    protected override async void OnAppearing()
+    {
+        base.OnAppearing();
+        if (Promo != null && !Promo.IsActivated && _apiService != null)
+        {
+            try
+            {
+                var coupons = await _apiService.GetCouponsAsync();
+                var bought = coupons.FirstOrDefault(c => c.Title == Promo.Title);
+                if (bought != null)
+                {
+                    Promo.IsActivated = true;
+                    Promo.CouponCode = bought.CouponCode;
+                    UpdateUI();
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"[API Error] Failed to check coupon status: {ex.Message}");
+            }
+        }
+    }
+
     private async void OnActivateCouponClicked(object sender, EventArgs e)
     {
-        if (Promo == null || UserState.Current.Souls < Promo.SoulCost) return;
+        if (Promo == null || Promo.IsActivated || UserState.Current.Souls < Promo.SoulCost) return;
 
         bool confirm = await DisplayAlert("Wymiana", $"Wymienić {Promo.SoulCost} urn na ten kupon?", "Ta jest", "Nah");
         if (!confirm) return;
 
-        UserState.Current.Souls -= Promo.SoulCost;
-        Promo.IsActivated = true;
-        Promo.CouponCode = $"GRUB-{Random.Shared.Next(1000, 9999)}-{Random.Shared.Next(1000, 9999)}-JAJA";
+        string couponCode = $"GRUB-{Random.Shared.Next(1000, 9999)}-{Random.Shared.Next(1000, 9999)}-JAJA";
 
-        UpdateUI();
-        await DisplayAlert("Sukces", "Kupon został aktywowany!", "Git");
+        // Save purchased item / activated coupon to the server database
+        try
+        {
+            if (_apiService != null)
+            {
+                await _apiService.CreateCouponAsync(new Coupon
+                {
+                    Title = Promo.Title,
+                    CouponCode = couponCode,
+                    SoulCost = Promo.SoulCost,
+                    PromoPrice = Promo.PromoPrice,
+                    ImageUrl = Promo.ImageUrl,
+                    PurchasedAt = DateTime.UtcNow,
+                    IsUsed = false
+                });
+            }
+
+            UserState.Current.Souls -= Promo.SoulCost;
+            Promo.IsActivated = true;
+            Promo.CouponCode = couponCode;
+
+            UpdateUI();
+            await DisplayAlert("Sukces", "Kupon został aktywowany i zapisany na serwerze!", "Git");
+        }
+        catch (Exception ex)
+        {
+            Debug.WriteLine($"[API Error] Failed to save purchase to server: {ex.Message}");
+            await DisplayAlert("Błąd", $"Nie udało się zapisać do bazy danych: {ex.Message}", "OK");
+        }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using grobowiec.Classes;
-using grobowiec.Classes.Api;
+using grobowiec.Pages;
+using Grobowiec.Services;
 using Microsoft.Extensions.Logging;
 
 namespace grobowiec;
@@ -19,15 +20,13 @@ public static class MauiProgram
                 fonts.AddFont("Robto-Bold.ttf", "OpenSansRegular");
                 fonts.AddFont("Robto-Bold.ttf", "LexendLight");
             });
-        
-        // Select the base address based on the target platform:
-        // Android Emulator uses 10.0.2.2 to access host machine's localhost
-        string baseAddress = DeviceInfo.Platform == DevicePlatform.Android
-            ? "http://10.0.2.2:5000/"  // Replace 5000 with your API port
-            : "http://localhost:5000/";
 
-        builder.Services.AddHttpClient<ApiService>();
+        // Register API service
+        builder.Services.AddSingleton<ItemApiService>();
+
+        // Register pages
         builder.Services.AddTransient<MainPage>();
+        builder.Services.AddTransient<ItemPage>();
 
         #if DEBUG
             builder.Logging.AddDebug();
